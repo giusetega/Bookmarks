@@ -1,0 +1,59 @@
+body{
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #191919;
+}
+
+div{
+    margin: 10px;    
+}
+
+#main-container{
+    display: flex;   
+    justify-content: center;
+}
+
+#error{
+    background-color: darkred;
+    color: white;
+    padding: 10px;
+    font-size: 1.3em;
+    display: none;
+}
+
+#form-container{
+    width: 50%;
+    background-color: #323232;
+    color: white;
+    padding: 40px 0px;
+    font-size: 1.1em;
+}
+
+#bookmarks-container{
+    width: 50%;
+    background-color: #323232;
+    /*    color: white;*/
+}
+
+ul {
+    list-style-type: none; 
+    padding: 0px;
+}
+
+#clear {
+    font-size: 1.1em;
+    font-family: verdana;
+}
+
+#clear a {
+    color: red;
+}
+
+a{
+    color: white;
+}
+
+ul li a:nth-child(2){
+    color: red;
+}
