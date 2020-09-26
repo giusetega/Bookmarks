@@ -50,6 +50,8 @@ if (isset($_GET['action']) && $_GET['action'] == "clear"){
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
+        <h1> Your favourite websites</h1>
+        
         <div id="error">
             <?php 
             if (isset($_GET['error'])){

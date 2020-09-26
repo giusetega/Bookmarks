@@ -5,9 +5,9 @@ body{
     background-color: #191919;
 }
 
-div{
-    margin: 10px;    
-}
+h1{ color: white; }
+
+div{ margin: 10px; }
 
 #main-container{
     display: flex;   
@@ -30,10 +30,20 @@ div{
     font-size: 1.1em;
 }
 
+#form-container input[type="submit"]{ 
+    margin-top: 20px; 
+    background-color: #191919;
+    padding: 5px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
 #bookmarks-container{
     width: 50%;
     background-color: #323232;
-    /*    color: white;*/
 }
 
 ul {
@@ -46,14 +56,8 @@ ul {
     font-family: verdana;
 }
 
-#clear a {
-    color: red;
-}
+#clear a { color: red; }
 
-a{
-    color: white;
-}
+a{ color: white; }
 
-ul li a:nth-child(2){
-    color: red;
-}
+ul li a:nth-child(2){ color: red; }
